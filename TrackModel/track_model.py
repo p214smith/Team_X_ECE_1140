@@ -521,6 +521,7 @@ class track_model(object):
                 train.commanded_authority = "True" if self.get_green_line_authority(new_block) else "False"
                 train.beacon_data = self.ui.track_list[new_block -1].get_beacon()
 
+
                 return 0
                 
         else:
